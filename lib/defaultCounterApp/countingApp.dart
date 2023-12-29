@@ -8,11 +8,9 @@ class CountingApp extends StatefulWidget {
 }
 
 class _CountingAppState extends State<CountingApp> {
-   int count = 0;
+  int count = 0;
   @override
   Widget build(BuildContext context) {
-   
-
     // This one is counting methods
     counter() {
       setState(() {
@@ -46,7 +44,9 @@ class _CountingAppState extends State<CountingApp> {
                 style:
                     const TextStyle(fontSize: 40, fontWeight: FontWeight.bold),
               ),
-              const SizedBox(height: 30,),
+              const SizedBox(
+                height: 30,
+              ),
               Row(
                   // crossAxisAlignment: CrossAxisAlignment.center,
                   mainAxisAlignment: MainAxisAlignment.center,
